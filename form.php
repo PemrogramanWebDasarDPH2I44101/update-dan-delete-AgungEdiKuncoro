@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-    <head>
-        <title></title>
-    </head>
-    <body>
+<html>
+<head>
+    <title>Input Data</title>
+</head>
+<body>
+   <h2>Silahkan isi data diri anda</h2>
+    <pre>
         <form action="submit.php" method="post">
-            Nama<input type="text" name="nama" id=""><br>
-            Nim<input type="text" name="nim" id=""><br>
-            Tanggal Lahir<input type="date" name="tgl_lahir" id=""><br>
-            <input type="submit" value="Kirim">
+            Nama            : <input type="text" name="nama">
+
+            NIM             : <input type="text" name="nim">
+
+            Tanggal Lahir   : <input type="date" name="tgl_lahir">
+
+            <input type="submit" name="submit" value="Simpan">
         </form>
-    </body>
+    </pre>
+</body>
 </html>
